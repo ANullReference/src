@@ -51,7 +51,7 @@ public class CrossWordTest
     [InlineData("1234", "1234")]
     [InlineData("FOO", "FOO")]
     [InlineData("Arch", "Arch")]
-    [InlineData("XYZ", "XYZ")]
+    [InlineData("XYZ", "XYz")]
     [InlineData("7654321", "7654321")]
     public async void Test1(string key, string value)
     {
