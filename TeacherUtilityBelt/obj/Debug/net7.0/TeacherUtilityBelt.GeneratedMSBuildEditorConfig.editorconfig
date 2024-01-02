@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TeacherUtilityBelt
 build_property.RootNamespace = TeacherUtilityBelt
-build_property.ProjectDir = g:\TeacherUtilityBelt\src\TeacherUtilityBelt\
+build_property.ProjectDir = G:\TeacherUtilityBelt\src\TeacherUtilityBelt\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = g:\TeacherUtilityBelt\src\TeacherUtilityBelt
+build_property.MSBuildProjectDirectory = G:\TeacherUtilityBelt\src\TeacherUtilityBelt
 build_property._RazorSourceGeneratorDebug = 
 
-[g:/TeacherUtilityBelt/src/TeacherUtilityBelt/Views/FindWord/Index.cshtml]
+[G:/TeacherUtilityBelt/src/TeacherUtilityBelt/Views/FindWord/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmluZFdvcmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[g:/TeacherUtilityBelt/src/TeacherUtilityBelt/Views/Home/Index.cshtml]
+[G:/TeacherUtilityBelt/src/TeacherUtilityBelt/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[g:/TeacherUtilityBelt/src/TeacherUtilityBelt/Views/Home/Privacy.cshtml]
+[G:/TeacherUtilityBelt/src/TeacherUtilityBelt/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[g:/TeacherUtilityBelt/src/TeacherUtilityBelt/Views/Shared/Error.cshtml]
+[G:/TeacherUtilityBelt/src/TeacherUtilityBelt/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[g:/TeacherUtilityBelt/src/TeacherUtilityBelt/Views/Shared/_ValidationScriptsPartial.cshtml]
+[G:/TeacherUtilityBelt/src/TeacherUtilityBelt/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[g:/TeacherUtilityBelt/src/TeacherUtilityBelt/Views/_ViewImports.cshtml]
+[G:/TeacherUtilityBelt/src/TeacherUtilityBelt/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[g:/TeacherUtilityBelt/src/TeacherUtilityBelt/Views/_ViewStart.cshtml]
+[G:/TeacherUtilityBelt/src/TeacherUtilityBelt/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[g:/TeacherUtilityBelt/src/TeacherUtilityBelt/Views/Shared/_Layout.cshtml]
+[G:/TeacherUtilityBelt/src/TeacherUtilityBelt/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nyhoirkd53

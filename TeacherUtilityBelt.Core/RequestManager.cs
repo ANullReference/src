@@ -51,8 +51,6 @@ public class RequestManager : IRequestManager
                 foreach(var gn in gridNavigator)
                 {
                     var foundMatches = new List<Coordinate>() { new Coordinate(i, j) };
-
-
                     var found = await FoundWordsRecursion(grid, i, j, keys, grid[i][j], gn, foundMatches);
 
                     if (found == null)
