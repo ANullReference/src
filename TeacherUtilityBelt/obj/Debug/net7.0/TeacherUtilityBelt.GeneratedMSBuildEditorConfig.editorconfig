@@ -9,11 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TeacherUtilityBelt
 build_property.RootNamespace = TeacherUtilityBelt
-build_property.ProjectDir = g:\TeacherUtilityBelt\src\TeacherUtilityBelt\
+build_property.ProjectDir = G:\TeacherUtilityBelt\src\TeacherUtilityBelt\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = g:\TeacherUtilityBelt\src\TeacherUtilityBelt
+build_property.MSBuildProjectDirectory = G:\TeacherUtilityBelt\src\TeacherUtilityBelt
 build_property._RazorSourceGeneratorDebug = 
 
 [G:/TeacherUtilityBelt/src/TeacherUtilityBelt/Views/FindWord/Index.cshtml]

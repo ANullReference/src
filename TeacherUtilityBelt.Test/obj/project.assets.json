@@ -6659,11 +6659,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Test\\TeacherUtilityBelt.Test.csproj",
+      "projectUniqueName": "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Test\\TeacherUtilityBelt.Test.csproj",
       "projectName": "TeacherUtilityBelt.Test",
-      "projectPath": "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Test\\TeacherUtilityBelt.Test.csproj",
+      "projectPath": "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Test\\TeacherUtilityBelt.Test.csproj",
       "packagesPath": "C:\\Users\\Archille\\.nuget\\packages\\",
-      "outputPath": "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Test\\obj\\",
+      "outputPath": "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Archille\\AppData\\Roaming\\NuGet\\NuGet.Config"
