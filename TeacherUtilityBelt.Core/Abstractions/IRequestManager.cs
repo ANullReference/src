@@ -5,5 +5,5 @@ namespace TeacherUtilityBelt.Core.Abstractions;
 
 public interface IRequestManager
 {
-    Task<GridAnswerResponse> GenerateCrosswordGrid(Coordinate coordinate);
+    Task<GridAnswerResponse> GenerateCrosswordGrid(GridCoordinate coordinate);
 }

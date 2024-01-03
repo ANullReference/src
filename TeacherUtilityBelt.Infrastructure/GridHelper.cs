@@ -5,7 +5,7 @@ namespace TeacherUtilityBelt.Infrastructure;
 
 public class GridHelper : IGridHelper
 {
-    public async Task<string[][]> GenerateRandomGrid( Coordinate coordinate)
+    public async Task<string[][]> GenerateRandomGrid(GridCoordinate coordinate)
     {
         string[][] s = new string[coordinate.Y][];
         Random random = new Random();

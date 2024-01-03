@@ -51,12 +51,12 @@ public class CrossWordTest
     [InlineData("1234", "1234")]
     [InlineData("FOO", "FOO")]
     [InlineData("Arch", "Arch")]
-    [InlineData("XYZ", "XYz")]
+    [InlineData("XYZ", "XYZ")]
     [InlineData("7654321", "7654321")]
     public async void Test1(string key, string value)
     {
         options.Setup(s => s.Value).Returns( new AppSettings{ FoundWordMinCount = value.Length });
-        gridHelper.Setup(s => s.GenerateRandomGrid(It.IsAny<Coordinate>())).Returns( Task.FromResult(GenerateTestGrid()));
+        gridHelper.Setup(s => s.GenerateRandomGrid(It.IsAny<GridCoordinate>())).Returns( Task.FromResult(GenerateTestGrid()));
         IDictionary<string, string> d = new Dictionary<string, string>
         {
             { key, value }
@@ -66,8 +66,30 @@ public class CrossWordTest
 
         var sut = BuildSystemUnderTest();
 
-        var response = await sut.GenerateCrosswordGrid(new Coordinate(8,8));
+        var response = await sut.GenerateCrosswordGrid(new GridCoordinate(8,8));
         
         Assert.True(response.GridAnswer.Count() == 1);
+    }
+
+
+    [Theory]
+    [InlineData("♪♪♪♪♪♪♪♪", "♪♪♪♪♪♪♪♪")]
+    public async void TestNotFound(string key, string value)
+    {
+        options.Setup(s => s.Value).Returns( new AppSettings{ FoundWordMinCount = value.Length });
+        gridHelper.Setup(s => s.GenerateRandomGrid(It.IsAny<GridCoordinate>())).Returns( Task.FromResult(GenerateTestGrid()));
+    
+        IDictionary<string, string> d = new Dictionary<string, string>
+        {
+            { key, value }
+        };
+
+        wordDictionary.Setup(s => s.GetWordDictionary(It.IsAny<string>())).Returns(Task.FromResult(d));
+
+        var sut = BuildSystemUnderTest();
+
+        var response = await sut.GenerateCrosswordGrid(new GridCoordinate(8,8));
+        
+        Assert.True(response.GridAnswer.Count() == 0);
     }
 }

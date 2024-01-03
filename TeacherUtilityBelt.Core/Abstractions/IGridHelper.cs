@@ -4,5 +4,5 @@ namespace TeacherUtilityBelt.Core.Abstractions;
 
 public interface IGridHelper
 {
-    public Task<string[][]> GenerateRandomGrid(Coordinate coordinate);
+    public Task<string[][]> GenerateRandomGrid(GridCoordinate coordinate);
 }
