@@ -294,3 +294,6 @@ obj
 
 *.csproj.FileListAbsolute.txt
 
+TeacherUtilityBelt/obj/Debug/net7.0/project.razor.vscode.bin
+TeacherUtilityBelt/obj/Debug/net7.0/TeacherUtilityBelt.csproj.AssemblyReference.cache
+TeacherUtilityBelt/obj/Debug/net7.0/TeacherUtilityBelt.csproj.FileListAbsolute.txt
