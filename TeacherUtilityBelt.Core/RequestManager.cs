@@ -29,7 +29,7 @@ public class RequestManager : IRequestManager
     /// <param name="x"></param>
     /// <param name="y"></param>
     /// <returns></returns>
-    public async Task<GridAnswerResponse> GenerateCrosswordGrid(Coordinate coordinate)
+    public async Task<GridAnswerResponse> GenerateCrosswordGrid(GridCoordinate coordinate)
     {
         var dict = await _wordDictionary.GetWordDictionary("en");
         var maxDiagonal = coordinate.X;
@@ -42,7 +42,7 @@ public class RequestManager : IRequestManager
         var gridNavigator = await _wordGridNavigator.GetNavigationPoints();
         var grid = await _gridHelper.GenerateRandomGrid(coordinate);
 
-        GridAnswerResponse gridAnswerResponse = new () { Grid = grid, GridAnswer = new Dictionary<string, List<Coordinate>>() };
+        GridAnswerResponse gridAnswerResponse = new () { Grid = grid, GridAnswer = new Dictionary<string, List<GridCoordinate>>() };
 
         for (int i = 0; i < grid.Length; i++)
         {
@@ -50,7 +50,7 @@ public class RequestManager : IRequestManager
             {
                 foreach(var gn in gridNavigator)
                 {
-                    var foundMatches = new List<Coordinate>() { new Coordinate(i, j) };
+                    var foundMatches = new List<GridCoordinate>() { new GridCoordinate(i, j) };
 
 
                     var found = await FoundWordsRecursion(grid, i, j, keys, grid[i][j], gn, foundMatches);
@@ -83,7 +83,7 @@ public class RequestManager : IRequestManager
     /// <param name="keyWords"></param>
     /// <param name="builtString"></param>
     /// <returns></returns>
-    private async Task<Tuple<string, List<Coordinate>>> FoundWordsRecursion(string[][] s, int x, int y, List<string> keyWords, string builtString, Coordinate operation, List<Coordinate> foundMatches)
+    private async Task<Tuple<string, List<GridCoordinate>>> FoundWordsRecursion(string[][] s, int x, int y, List<string> keyWords, string builtString, GridCoordinate operation, List<GridCoordinate> foundMatches)
     {
 
         #region is the word found....
@@ -93,7 +93,7 @@ public class RequestManager : IRequestManager
 
         if (!string.IsNullOrEmpty(singleWordFound))
         {
-            return new Tuple<string, List<Coordinate>>(singleWordFound, foundMatches);
+            return new Tuple<string, List<GridCoordinate>>(singleWordFound, foundMatches);
         }
         #endregion
 
@@ -109,7 +109,7 @@ public class RequestManager : IRequestManager
         }
         
         builtString += s[nextX][nextY];
-        foundMatches.Add(new Coordinate(nextX, nextY));
+        foundMatches.Add(new GridCoordinate(nextX, nextY));
 
         PrintGrid(s, builtString, x, y);
 

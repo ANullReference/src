@@ -10,5 +10,5 @@ public class GridAnswerResponse
     /// <summary>
     /// 
     /// </summary>
-    public Dictionary<string, List<Coordinate>> GridAnswer  { get; set;}
+    public Dictionary<string, List<GridCoordinate>> GridAnswer  { get; set;}
 }

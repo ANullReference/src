@@ -24,7 +24,7 @@ public class FindWordController : Controller
     /// <returns></returns>
     public async Task<IActionResult> Index()
     {
-        var response = await _requestManager.GenerateCrosswordGrid(new Coordinate(19,19));
+        var response = await _requestManager.GenerateCrosswordGrid(new GridCoordinate(19,19));
         return View(response);
     }
 

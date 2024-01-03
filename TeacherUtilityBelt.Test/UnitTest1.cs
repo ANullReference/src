@@ -56,7 +56,7 @@ public class CrossWordTest
     public async void Test1(string key, string value)
     {
         options.Setup(s => s.Value).Returns( new AppSettings{ FoundWordMinCount = value.Length });
-        gridHelper.Setup(s => s.GenerateRandomGrid(It.IsAny<Coordinate>())).Returns( Task.FromResult(GenerateTestGrid()));
+        gridHelper.Setup(s => s.GenerateRandomGrid(It.IsAny<GridCoordinate>())).Returns( Task.FromResult(GenerateTestGrid()));
         IDictionary<string, string> d = new Dictionary<string, string>
         {
             { key, value }
@@ -66,7 +66,7 @@ public class CrossWordTest
 
         var sut = BuildSystemUnderTest();
 
-        var response = await sut.GenerateCrosswordGrid(new Coordinate(8,8));
+        var response = await sut.GenerateCrosswordGrid(new GridCoordinate(8,8));
         
         Assert.True(response.GridAnswer.Count() == 1);
     }
