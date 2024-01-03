@@ -374,3 +374,7 @@ TeacherUtilityBelt.Infrastructure/obj/Debug/net7.0/TeacherUtilityBelt.Infrastruc
 TeacherUtilityBelt.Infrastructure/obj/Debug/net7.0/TeacherUtilityBelt.Infrastructure.csproj.FileListAbsolute.txt
 TeacherUtilityBelt.Test/obj/Debug/net7.0/TeacherUtilityBelt.Test.assets.cache
 TeacherUtilityBelt.Test/obj/Debug/net7.0/TeacherUtilityBelt.Test.csproj.FileListAbsolute.txt
+TeacherUtilityBelt/obj/Debug/net7.0/TeacherUtilityBelt.assets.cache
+TeacherUtilityBelt.Core/obj/Debug/net7.0/TeacherUtilityBelt.Core.assets.cache
+*FileListAbsolute.txt
+*.cache
