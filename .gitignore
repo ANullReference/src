@@ -367,3 +367,10 @@ TeacherUtilityBelt.Test/obj/TeacherUtilityBelt.Test.csproj.nuget.dgspec.json
 TeacherUtilityBelt.Test/obj/Debug/net7.0/TeacherUtilityBelt.Test.csproj.AssemblyReference.cache
 TeacherUtilityBelt.Test/obj/Debug/net7.0/TeacherUtilityBelt.Test.dll
 TeacherUtilityBelt.Test/obj/Debug/net7.0/TeacherUtilityBelt.Test.pdb
+TeacherUtilityBelt/obj/Debug/net7.0/TeacherUtilityBelt.assets.cache
+TeacherUtilityBelt.Core/obj/Debug/net7.0/TeacherUtilityBelt.Core.assets.cache
+TeacherUtilityBelt.Core/obj/Debug/net7.0/TeacherUtilityBelt.Core.csproj.FileListAbsolute.txt
+TeacherUtilityBelt.Infrastructure/obj/Debug/net7.0/TeacherUtilityBelt.Infrastructure.assets.cache
+TeacherUtilityBelt.Infrastructure/obj/Debug/net7.0/TeacherUtilityBelt.Infrastructure.csproj.FileListAbsolute.txt
+TeacherUtilityBelt.Test/obj/Debug/net7.0/TeacherUtilityBelt.Test.assets.cache
+TeacherUtilityBelt.Test/obj/Debug/net7.0/TeacherUtilityBelt.Test.csproj.FileListAbsolute.txt
