@@ -1,0 +1,15 @@
+g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Infrastructure\bin\Debug\net7.0\TeacherUtilityBelt.Infrastructure.deps.json
+g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Infrastructure\bin\Debug\net7.0\TeacherUtilityBelt.Infrastructure.dll
+g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Infrastructure\bin\Debug\net7.0\TeacherUtilityBelt.Infrastructure.pdb
+g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Infrastructure\bin\Debug\net7.0\TeacherUtilityBelt.Core.dll
+g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Infrastructure\bin\Debug\net7.0\TeacherUtilityBelt.Core.pdb
+g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Infrastructure\obj\Debug\net7.0\TeacherUtilityBelt.Infrastructure.csproj.AssemblyReference.cache
+g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Infrastructure\obj\Debug\net7.0\TeacherUtilityBelt.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Infrastructure\obj\Debug\net7.0\TeacherUtilityBelt.Infrastructure.AssemblyInfoInputs.cache
+g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Infrastructure\obj\Debug\net7.0\TeacherUtilityBelt.Infrastructure.AssemblyInfo.cs
+g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Infrastructure\obj\Debug\net7.0\TeacherUtilityBelt.Infrastructure.csproj.CoreCompileInputs.cache
+g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Infrastructure\obj\Debug\net7.0\TeacherUtilityBelt.Infrastructure.csproj.CopyComplete
+g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Infrastructure\obj\Debug\net7.0\TeacherUtilityBelt.Infrastructure.dll
+g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Infrastructure\obj\Debug\net7.0\refint\TeacherUtilityBelt.Infrastructure.dll
+g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Infrastructure\obj\Debug\net7.0\TeacherUtilityBelt.Infrastructure.pdb
+g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Infrastructure\obj\Debug\net7.0\ref\TeacherUtilityBelt.Infrastructure.dll
