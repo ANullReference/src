@@ -277,23 +277,22 @@ __pycache__/
 *.nuget.cache
 *.assets.cache
 
-TeacherUtilityBelt.Test/obj/
-TeacherUtilityBelt.Test/obj/Debug/
-TeacherUtilityBelt.Test/obj/Debug/net7.0/
+TeacherUtilityBelt.Test/obj/*
+TeacherUtilityBelt.Test/obj/Debug/*
+TeacherUtilityBelt.Test/obj/Debug/net7.0/*
 
-TeacherUtilityBelt.Infrastructure/obj/
-TeacherUtilityBelt.Infrastructure/obj/Debug
-TeacherUtilityBelt.Infrastructure/obj/Debug/net7.0/
+TeacherUtilityBelt.Infrastructure/obj/*
+TeacherUtilityBelt.Infrastructure/obj/Debug/*
+TeacherUtilityBelt.Infrastructure/obj/Debug/net7.0/*
 
-TeacherUtilityBelt/obj/
-TeacherUtilityBelt/obj/Debug/
-TeacherUtilityBelt/obj/Debug/net7.0/
+TeacherUtilityBelt/obj/*
+TeacherUtilityBelt/obj/Debug/*
+TeacherUtilityBelt/obj/Debug/net7.0/*
 
 obj/*
 bin/*
 
 [Dd]ebug/*
-
 
 *.csproj.FileListAbsolute.txt
 
