@@ -289,8 +289,11 @@ TeacherUtilityBelt/obj/
 TeacherUtilityBelt/obj/Debug/
 TeacherUtilityBelt/obj/Debug/net7.0/
 
-obj
-[Dd]ebug
+obj/*
+bin/*
+
+[Dd]ebug/*
+
 
 *.csproj.FileListAbsolute.txt
 
