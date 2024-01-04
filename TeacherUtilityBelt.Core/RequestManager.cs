@@ -24,12 +24,12 @@ public class RequestManager : IRequestManager
     }
 
     /// <summary>
-    /// 
+    /// Generate randdom word grid
     /// </summary>
     /// <param name="x"></param>
     /// <param name="y"></param>
     /// <returns></returns>
-    public async Task<GridAnswerResponse> GenerateCrosswordGrid(GridCoordinate coordinate)
+    public async Task<GridAnswerResponse> GenerateRandomCrosswordGrid(GridCoordinate coordinate)
     {
         var dict = await _wordDictionary.GetWordDictionary("en");
         var maxDiagonal = coordinate.X;
@@ -71,6 +71,44 @@ public class RequestManager : IRequestManager
         }
 
         return gridAnswerResponse;
+    }
+
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="GridAnswer"></param>
+    /// <returns></returns>
+    public async Task<GridAnswerResponse> GenerateCrosswordGrid(Dictionary<string, List<GridCoordinate>> gridAnswer, int dimension)
+    {
+        if (gridAnswer == null || gridAnswer.Count() == 0)
+        {
+            return null;
+        }
+
+        string[][] grid = await CreateEmptyGrid(dimension);
+
+        foreach(var ga in gridAnswer)
+        {
+
+
+        }
+
+        return null;
+    }
+
+    #region private methods
+
+    private async Task<string[][]> CreateEmptyGrid(int dimension)
+    {
+        string[][] grid = new string[dimension][];
+
+        for(int i = 0; i < dimension; i++ )
+        {
+            grid[i] =  new string[dimension];
+        }
+        
+        return await Task.FromResult(grid);
     }
 
 
@@ -125,7 +163,6 @@ public class RequestManager : IRequestManager
 
         return await FoundWordsRecursion(s, nextX , nextY, filteredKeyList.ToList() , builtString, operation, foundMatches);
     }
-
     private void PrintGrid(string [][] s, string lookingFor, int x, int y)
     {
         StringBuilder sb = new StringBuilder();
@@ -142,4 +179,6 @@ public class RequestManager : IRequestManager
         _logger.LogDebug(sb.ToString());
         _logger.LogDebug($"Looking for: {lookingFor} at {x},{y}");
     }
+
+    #endregion
 }

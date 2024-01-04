@@ -31,15 +31,27 @@ public class FindWordController : Controller
     /// 
     /// </summary>
     /// <returns></returns>
-    public async Task<IActionResult> GirdGeneration(int dimension)
+    public async Task<IActionResult> RandomGridGeneration(int dimension)
     {
         if (dimension <= 4 || dimension >= 20)
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier, Message = "Enter a dimension between 4 and 20 for grid size" });
         }
 
-        var response = await _requestManager.GenerateCrosswordGrid(new GridCoordinate(dimension,dimension));
+        var response = await _requestManager.GenerateRandomCrosswordGrid(new GridCoordinate(dimension,dimension));
         return View(response);
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns></returns>
+    public async Task<IActionResult> GridGeneration(int dimension)
+    {
+        //var grid = 
+
+
+        return View(dimension);
     }
 
 

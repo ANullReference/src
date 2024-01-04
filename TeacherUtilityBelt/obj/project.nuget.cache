@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bYJmn4+ECJRvPP42wpNdyDeZd83R2jsZ88nfWAFsA5OsD8LoXjm8p96Mao5O3SWa1OSsMbZixQItZawAtIQE6Q==",
+  "dgSpecHash": "BcpDJgiVMLACHDPjYxlKiZeUDojCiQCmQbA+jFKTawfSC6509EusHerEIjZv9TdS4bElsWWQdU3Hx9IU0+RzWw==",
   "success": true,
-  "projectFilePath": "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt\\TeacherUtilityBelt.csproj",
+  "projectFilePath": "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt\\TeacherUtilityBelt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Archille\\.nuget\\packages\\ioptionswriter\\4.7.0.1\\ioptionswriter.4.7.0.1.nupkg.sha512",
     "C:\\Users\\Archille\\.nuget\\packages\\jstreamasyncnet\\4.7.0.1\\jstreamasyncnet.4.7.0.1.nupkg.sha512",

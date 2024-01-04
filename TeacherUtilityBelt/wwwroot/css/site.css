@@ -21,6 +21,16 @@ body {
   margin-bottom: 60px;
 }
 
+.small_table td {
+  width: 80px;
+}
+
 .table, th, td {
   border: 1px solid black;
+}
+
+
+.single_char_textbox {
+  width: 30px;
+
 }
