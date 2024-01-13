@@ -1,6 +1,7 @@
 import { Counter } from "./components/Counter";
 import { FetchData } from "./components/FetchData";
 import { Home } from "./components/Home";
+import { GenerateRandomGrid } from "./components/GenerateRandomGrid";
 
 const AppRoutes = [
   {
@@ -14,6 +15,10 @@ const AppRoutes = [
   {
     path: '/fetch-data',
     element: <FetchData />
+  },
+  {
+    path: "/generate-random-grid"
+    ,element: <GenerateRandomGrid />
   }
 ];
 

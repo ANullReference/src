@@ -38,6 +38,9 @@ export class NavMenu extends Component {
               <NavItem>
                 <NavLink tag={Link} className="text-dark" to="/fetch-data">Fetch data</NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink tag={Link} className="text-dark" to="/generate-random-grid">Generate Random Grid</NavLink>
+              </NavItem>
             </ul>
           </Collapse>
         </Navbar>

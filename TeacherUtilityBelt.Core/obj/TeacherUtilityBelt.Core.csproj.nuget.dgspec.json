@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj": {}
+    "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj": {}
   },
   "projects": {
-    "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj": {
+    "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj",
+        "projectUniqueName": "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj",
         "projectName": "TeacherUtilityBelt.Core",
-        "projectPath": "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj",
+        "projectPath": "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj",
         "packagesPath": "C:\\Users\\Archille\\.nuget\\packages\\",
-        "outputPath": "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\obj\\",
+        "outputPath": "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Archille\\AppData\\Roaming\\NuGet\\NuGet.Config"

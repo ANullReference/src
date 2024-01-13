@@ -16,3 +16,18 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+
+.small_table td {
+  width: 80px;
+}
+
+.table, th, td {
+  border: 1px solid black;
+}
+
+
+.single_char_textbox {
+  width: 30px;
+
+}

@@ -1,4 +1,4 @@
-G:\TeacherUtilityBelt\src\TeacherUtilityBelt.Core\bin\Debug\net7.0\TeacherUtilityBelt.Core.deps.json
+g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Core\bin\Debug\net7.0\TeacherUtilityBelt.Core.deps.json
 g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Core\bin\Debug\net7.0\TeacherUtilityBelt.Core.dll
 g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Core\bin\Debug\net7.0\TeacherUtilityBelt.Core.pdb
 g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Core\obj\Debug\net7.0\TeacherUtilityBelt.Core.csproj.AssemblyReference.cache
@@ -9,4 +9,4 @@ g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Core\obj\Debug\net7.0\TeacherUtilit
 g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Core\obj\Debug\net7.0\TeacherUtilityBelt.Core.dll
 g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Core\obj\Debug\net7.0\refint\TeacherUtilityBelt.Core.dll
 g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Core\obj\Debug\net7.0\TeacherUtilityBelt.Core.pdb
-G:\TeacherUtilityBelt\src\TeacherUtilityBelt.Core\obj\Debug\net7.0\ref\TeacherUtilityBelt.Core.dll
+g:\TeacherUtilityBelt\src\TeacherUtilityBelt.Core\obj\Debug\net7.0\ref\TeacherUtilityBelt.Core.dll

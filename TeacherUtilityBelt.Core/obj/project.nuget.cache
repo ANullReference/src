@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0B8rqlpI31CKmRRmpCDbB1BbjmatRDPkzz7BP5LVH6i1AqmOrVpk8HQ06m/TsFrMwPgTzM/Sux6lCr10ftgOkw==",
+  "dgSpecHash": "FwXxy8EYPp8U/JRSzpvC5rw2t/xUNZ0xeha0sygfPDuHKhM5GQrc1NM/e4H7veoQqVnIFQ0ZuWsuh5935yjSiQ==",
   "success": true,
-  "projectFilePath": "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj",
+  "projectFilePath": "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Archille\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\Archille\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
