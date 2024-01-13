@@ -97,6 +97,15 @@ public class RequestManager : IRequestManager
         return null;
     }
 
+    public async Task<Dictionary<string, string>> SearchedWord(string str)
+    {
+        var searchedWord = await _wordDictionary.GetWordDictionary("en");
+        
+        return searchedWord.Where(w => w.Key.StartsWith(str))
+                           .Take(_appSettings.MaxDictionaryResult)
+                           .ToDictionary(k => k.Key, v => v.Value);
+    }
+
     #region private methods
 
     private async Task<string[][]> CreateEmptyGrid(int dimension)

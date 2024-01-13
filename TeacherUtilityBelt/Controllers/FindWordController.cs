@@ -46,11 +46,9 @@ public class FindWordController : Controller
     /// 
     /// </summary>
     /// <returns></returns>
-    public async Task<IActionResult> GridGeneration(int dimension)
+    public IActionResult GridGeneration(int dimension)
     {
         //var grid = 
-
-
         return View(dimension);
     }
 

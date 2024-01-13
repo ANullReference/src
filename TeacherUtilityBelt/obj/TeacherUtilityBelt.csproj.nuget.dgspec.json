@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt\\TeacherUtilityBelt.csproj": {}
+    "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt\\TeacherUtilityBelt.csproj": {}
   },
   "projects": {
-    "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj": {
+    "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj",
+        "projectUniqueName": "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj",
         "projectName": "TeacherUtilityBelt.Core",
-        "projectPath": "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj",
+        "projectPath": "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj",
         "packagesPath": "C:\\Users\\Archille\\.nuget\\packages\\",
-        "outputPath": "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\obj\\",
+        "outputPath": "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Archille\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -85,8 +85,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj": {
-                "projectPath": "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj"
+              "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj": {
+                "projectPath": "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj"
               }
             }
           }
@@ -130,14 +130,14 @@
         }
       }
     },
-    "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt\\TeacherUtilityBelt.csproj": {
+    "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt\\TeacherUtilityBelt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt\\TeacherUtilityBelt.csproj",
+        "projectUniqueName": "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt\\TeacherUtilityBelt.csproj",
         "projectName": "TeacherUtilityBelt",
-        "projectPath": "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt\\TeacherUtilityBelt.csproj",
+        "projectPath": "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt\\TeacherUtilityBelt.csproj",
         "packagesPath": "C:\\Users\\Archille\\.nuget\\packages\\",
-        "outputPath": "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt\\obj\\",
+        "outputPath": "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Archille\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -152,8 +152,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj": {
-                "projectPath": "g:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj"
+              "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj": {
+                "projectPath": "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Core\\TeacherUtilityBelt.Core.csproj"
               },
               "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Infrastructure\\TeacherUtilityBelt.Infrastructure.csproj": {
                 "projectPath": "G:\\TeacherUtilityBelt\\src\\TeacherUtilityBelt.Infrastructure\\TeacherUtilityBelt.Infrastructure.csproj"
@@ -170,6 +170,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "JavaScriptEngineSwitcher.Extensions.MsDependencyInjection": {
+              "target": "Package",
+              "version": "[3.21.0, )"
+            },
+            "JavaScriptEngineSwitcher.V8": {
+              "target": "Package",
+              "version": "[3.23.2, )"
+            },
+            "React.AspNet": {
+              "target": "Package",
+              "version": "[5.2.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -3,6 +3,11 @@
     <ProjectReference Include="..\TeacherUtilityBelt.Core\TeacherUtilityBelt.Core.csproj" />
     <ProjectReference Include="..\TeacherUtilityBelt.Infrastructure\TeacherUtilityBelt.Infrastructure.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="JavaScriptEngineSwitcher.Extensions.MsDependencyInjection" Version="3.21.0" />
+    <PackageReference Include="JavaScriptEngineSwitcher.V8" Version="3.23.2" />
+    <PackageReference Include="React.AspNet" Version="5.2.12" />
+  </ItemGroup>
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>

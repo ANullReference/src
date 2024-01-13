@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherUtilityBelt.Infrastr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherUtilityBelt.Test", "TeacherUtilityBelt.Test\TeacherUtilityBelt.Test.csproj", "{F7681BDF-EDB3-49F9-A5F3-351A808B84E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherUtilityBelt.Web", "TeacherUtilityBelt.Web\TeacherUtilityBelt.Web.csproj", "{FAD55931-F893-4E51-81A2-FC7DE2F1C0AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{F7681BDF-EDB3-49F9-A5F3-351A808B84E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7681BDF-EDB3-49F9-A5F3-351A808B84E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7681BDF-EDB3-49F9-A5F3-351A808B84E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD55931-F893-4E51-81A2-FC7DE2F1C0AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD55931-F893-4E51-81A2-FC7DE2F1C0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD55931-F893-4E51-81A2-FC7DE2F1C0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD55931-F893-4E51-81A2-FC7DE2F1C0AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
