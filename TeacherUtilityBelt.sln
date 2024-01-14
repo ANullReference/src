@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherUtilityBelt", "TeacherUtilityBelt\TeacherUtilityBelt.csproj", "{BEE0E9F9-834F-45C5-A970-EE09436D90F2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherUtilityBelt.Core", "TeacherUtilityBelt.Core\TeacherUtilityBelt.Core.csproj", "{C52FCD9D-9F43-4D77-A75F-F61862E0EB3F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherUtilityBelt.Infrastructure", "TeacherUtilityBelt.Infrastructure\TeacherUtilityBelt.Infrastructure.csproj", "{B21B7D32-9BF0-4E9C-867D-7CB95F988407}"

@@ -21,8 +21,8 @@ public class FindWordController : ControllerBase
     /// 
     /// </summary>
     /// <returns></returns>
-    [HttpGet]
-    public async Task<GridAnswerResponse> Get()
+    [HttpGet, Route("GetGridAnswerResponse")]
+    public async Task<GridAnswerResponse> GetGridAnswerResponse()
     {
         int dimension = 12;
 

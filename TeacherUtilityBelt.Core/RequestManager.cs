@@ -50,7 +50,7 @@ public class RequestManager : IRequestManager
             {
                 foreach(var gn in gridNavigator)
                 {
-                    var foundMatches = new List<GridCoordinate>() { new GridCoordinate(i, j) };
+                    var foundMatches = new List<GridCoordinate>() { new GridCoordinate(j, i) };
 
 
                     var found = await FoundWordsRecursion(grid, i, j, keys, grid[i][j], gn, foundMatches);
@@ -72,7 +72,6 @@ public class RequestManager : IRequestManager
 
         return gridAnswerResponse;
     }
-
 
     /// <summary>
     /// 

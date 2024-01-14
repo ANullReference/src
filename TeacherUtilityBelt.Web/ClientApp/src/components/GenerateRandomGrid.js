@@ -12,27 +12,60 @@ export class GenerateRandomGrid extends Component {
     this.generateRandomGrid();
   }
 
-  static renderGrid(grid) {
+
+
+  static renderGrid(randomGrid) {
+
+    let grid = randomGrid.grid;
+    let gridAnswer = randomGrid.gridAnswer;
+
     return (
-      <div></div>
+      <div className="grid">
+        <div>
+        <table className="table" aria-labelledby="tableLabel">
+          <tbody>
+          {
+            grid.map((row, i) => (
+              <tr>
+                { 
+                  row.map((col, j) => ( <td>{grid[i][j]}</td> ) )
+                }
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        </div>
+        <div className="answers">
+          {Object.keys(gridAnswer).map((key, index) => (
+              <div>
+                <div>Found word: {key}</div>
+                {Object.keys(gridAnswer[key]).map((y, i) => (
+                    <div>
+                      <label>At</label> {gridAnswer[key][y].x} {gridAnswer[key][y].y}
+                    </div>    
+                ))}
+              </div>
+            ))}
+        </div>
+      </div>
     );
   }
 
   render() {
-    let contents = this.state.loading
+    let content = this.state.loading
     ? <p><em>Loading...</em></p>
     : GenerateRandomGrid.renderGrid(this.state.grid);
 
     return (
         <div>
-        {contents}
+        {content}
         </div>
     );
   }
 
   async generateRandomGrid() {
-    console.log('hello');
-    const response = await fetch('FindWord');
+
+    const response = await fetch('FindWord/GetGridAnswerResponse');
     const data = await response.json();
     this.setState({ grid: data, loading: false });
   }
