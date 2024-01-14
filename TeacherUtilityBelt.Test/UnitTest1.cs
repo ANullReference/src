@@ -66,7 +66,7 @@ public class CrossWordTest
 
         var sut = BuildSystemUnderTest();
 
-        var response = await sut.GenerateCrosswordGrid(new GridCoordinate(8,8));
+        var response = await sut.GenerateRandomCrosswordGrid(new GridCoordinate(8,8));
         
         Assert.True(response.GridAnswer.Count() == 1);
     }
@@ -88,7 +88,7 @@ public class CrossWordTest
 
         var sut = BuildSystemUnderTest();
 
-        var response = await sut.GenerateCrosswordGrid(new GridCoordinate(8,8));
+        var response = await sut.GenerateRandomCrosswordGrid(new GridCoordinate(8,8));
         
         Assert.True(response.GridAnswer.Count() == 0);
     }

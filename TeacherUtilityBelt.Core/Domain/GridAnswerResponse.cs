@@ -1,6 +1,5 @@
 namespace TeacherUtilityBelt.Core.Domain;
 
-
 public class GridAnswerResponse
 {
     /// <summary>
@@ -10,5 +9,5 @@ public class GridAnswerResponse
     /// <summary>
     /// 
     /// </summary>
-    public Dictionary<string, List<GridCoordinate>> GridAnswer  { get; set;}
+    public Dictionary<string, List<GridCoordinate>> GridAnswer { get; set;}
 }

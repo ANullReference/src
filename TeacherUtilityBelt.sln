@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherUtilityBelt", "TeacherUtilityBelt\TeacherUtilityBelt.csproj", "{BEE0E9F9-834F-45C5-A970-EE09436D90F2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherUtilityBelt.Core", "TeacherUtilityBelt.Core\TeacherUtilityBelt.Core.csproj", "{C52FCD9D-9F43-4D77-A75F-F61862E0EB3F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherUtilityBelt.Infrastructure", "TeacherUtilityBelt.Infrastructure\TeacherUtilityBelt.Infrastructure.csproj", "{B21B7D32-9BF0-4E9C-867D-7CB95F988407}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherUtilityBelt.Test", "TeacherUtilityBelt.Test\TeacherUtilityBelt.Test.csproj", "{F7681BDF-EDB3-49F9-A5F3-351A808B84E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherUtilityBelt.Web", "TeacherUtilityBelt.Web\TeacherUtilityBelt.Web.csproj", "{FAD55931-F893-4E51-81A2-FC7DE2F1C0AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +36,9 @@ Global
 		{F7681BDF-EDB3-49F9-A5F3-351A808B84E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7681BDF-EDB3-49F9-A5F3-351A808B84E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7681BDF-EDB3-49F9-A5F3-351A808B84E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD55931-F893-4E51-81A2-FC7DE2F1C0AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD55931-F893-4E51-81A2-FC7DE2F1C0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD55931-F893-4E51-81A2-FC7DE2F1C0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD55931-F893-4E51-81A2-FC7DE2F1C0AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
